@@ -131,7 +131,13 @@ module.exports = () => {
           source: '/esop-taxation-india', // The original URL
           destination: '/esop-taxation-impact-india', // The destination URL you want to redirect to
           permanent: true
+        },
+        {
+          source: '/url-shortcuts-to-get-you-more-productive', // The original URL
+          destination: '/shorter-urls-to-get-you-more-productive', // The destination URL you want to redirect to
+          permanent: true
         }
+
       ]
     },
     webpack: (config, options) => {

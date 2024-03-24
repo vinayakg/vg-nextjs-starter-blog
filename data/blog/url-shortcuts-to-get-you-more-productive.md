@@ -1,11 +1,11 @@
 ---
-title: URL shortcuts to get you more productive
+title: Shorter URLs to get you more productive
 tags: [new, shortcuts, url]
 date: 2024-03-14
 draft: false
 summary: URL shortcuts are an essential tool for boosting productivity in the digital age. By simplifying the process of navigating the web, URL shortcuts help users focus on their tasks without the distraction of searching for links, leading to a more organized and efficient online experience.
 image: https://vinayakg.dev/static/images/do-more-with-less-productive.jpg
-canonicalUrl: https://vinayakg.dev/url-shortcuts-to-get-you-more-productive
+canonicalUrl: https://vinayakg.dev/shorter-urls-to-get-you-more-productive
 ---
 
 I am big fan of computer shortcuts and try and inculcate as many as I can in my daily workflows. So far I have been focussed on being productive in the desktop tools that I use daily.
