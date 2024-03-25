@@ -1,24 +1,21 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'Next.js Starter Blog',
-  author: 'Tails Azimuth',
-  headerTitle: 'TailwindBlog',
-  description: 'A blog created with Next.js and Tailwind.css',
+  title: "Vinayak's (B)log",
+  author: 'Vinayak Ganapuram',
+  headerTitle: "Vinayak Ganapuram's (B)log",
+  description:
+    'Vinayak’s (B)Log | Vinayak Ganapuram’s learnings and findings along the way. Mostly about technology, ideas, process, hacks and other interesting stuff',
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
-  siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
-  siteLogo: '/static/images/logo.png',
-  socialBanner: '/static/images/twitter-card.png',
-  mastodon: 'https://mastodon.social/@mastodonuser',
-  email: 'address@yoursite.com',
-  github: 'https://github.com',
-  twitter: 'https://twitter.com/Twitter',
-  facebook: 'https://facebook.com',
-  youtube: 'https://youtube.com',
-  linkedin: 'https://www.linkedin.com',
-  threads: 'https://www.threads.net',
-  instagram: 'https://www.instagram.com',
+  siteUrl: 'https://vinayakg.dev/',
+  siteRepo: 'https://github.com/vinayakg/vg-nextjs-blog',
+  siteLogo: '/static/images/newlogo.png',
+  image: '/static/images/newlogo.png',
+  socialBanner: '/static/images/vinayak-blog.png',
+  email: 'vinayakkg-dis@yahoo.com',
+  github: 'https://github.com/vinayakg',
+  twitter: 'https://twitter.com/vinayakkg',
+  linkedin: 'https://www.linkedin.com/in/vinayak-g',
   locale: 'en-US',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
@@ -26,10 +23,7 @@ const siteMetadata = {
     // supports Plausible, Simple Analytics, Umami, Posthog or Google Analytics.
     umamiAnalytics: {
       // We use an env variable for this site to avoid other users cloning our analytics ID
-      umamiWebsiteId: process.env.NEXT_UMAMI_ID, // e.g. 123e4567-e89b-12d3-a456-426614174000
-      // You may also need to overwrite the script if you're storing data in the US - ex:
-      // src: 'https://us.umami.is/script.js'
-      // Remember to add 'us.umami.is' in `next.config.js` as a permitted domain for the CSP
+      umamiWebsiteId: '', // e.g. 123e4567-e89b-12d3-a456-426614174000
     },
     // plausibleAnalytics: {
     //   plausibleDataDomain: '', // e.g. tailwind-nextjs-starter-blog.vercel.app
@@ -48,7 +42,7 @@ const siteMetadata = {
     provider: 'buttondown',
   },
   comments: {
-    // If you want to use an analytics provider you have to add it to the
+    // If you want to use a commenting system other than giscus you have to add it to the
     // content security policy in the `next.config.js` file.
     // Select a provider and use the environment variables associated to it
     // https://vercel.com/docs/environment-variables
@@ -73,7 +67,7 @@ const siteMetadata = {
       // please provide a link below to your custom theme css file.
       // example: https://giscus.app/themes/custom_example.css
       themeURL: '',
-      // This corresponds to the `data-lang="en"` in giscus's configurations
+// This corresponds to the `data-lang="en"` in giscus's configurations
       lang: 'en',
     },
   },
