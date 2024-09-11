@@ -3,6 +3,7 @@ title: Branching Patterns for a growing team
 tags: [git, scaling, code-review, quality, engineering]
 date: 2020-05-18
 draft: false
+images:['/static/images/image-20200518032241426.png']
 summary:
 canonicalUrl: https://vinayakg.dev/branching-patterns-for-growing-teams
 ---
@@ -103,7 +104,7 @@ In the future, we would like to run automation to create a report of branches no
 
 The tweaked process looks like this
 
-![image-20200518034752938](../static/images/image-20200518034752938.png)
+![Branch Based Deployment](../static/images/image-20200518034752938.png)
 
 Let me quickly walk you through the process. Each feature branch gets deployed from the same branch post-testing. Then that branch is merged with master and other branches also take a reverse pull from the master. If not, the build scripts will catch for sure. :)
 
