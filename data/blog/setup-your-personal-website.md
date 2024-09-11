@@ -4,6 +4,7 @@ tags: [branding, personal, website, market, blog]
 date: 2020-07-15
 draft: false
 summary:
+images: ['/static/images/Blog_Posts.png']
 canonicalUrl: https://vinayakg.dev/setup-your-personal-website
 ---
 

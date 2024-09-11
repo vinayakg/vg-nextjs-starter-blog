@@ -4,6 +4,7 @@ tags: [tech, home-office, remote-setup, remote, productivity]
 date: 2020-09-12
 draft: false
 summary:
+imaages: ['/static/images/dual-monitor-setup-macos.png']
 canonicalUrl: https://vinayakg.dev/setting-up-remote-workstation
 ---
 

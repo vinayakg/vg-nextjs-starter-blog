@@ -4,6 +4,7 @@ tags: [tech, ssl, firewall, troubleshooting, debug]
 date: 2020-12-27
 draft: false
 summary:
+images: ['/static/images/ssl-cert-rating-A.png']
 canonicalUrl: https://vinayakg.dev/ssl-security-and-firewalls
 ---
 

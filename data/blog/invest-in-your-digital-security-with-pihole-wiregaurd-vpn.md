@@ -4,6 +4,7 @@ tags: [guide, noads, notracking, privacy, tools, tech, security, cloudnative]
 date: 2022-02-13
 draft: false
 summary:
+images: ['/static/images/Vultr_ip_rules.png']
 canonicalUrl: https://vinayakg.dev/invest-in-your-digital-security-with-pihole-wiregaurd-vpn
 ---
 

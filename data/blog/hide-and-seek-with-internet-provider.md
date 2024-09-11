@@ -4,6 +4,7 @@ tags: [internet, personal, service, support, speed]
 date: 2020-08-15
 draft: false
 summary:
+images: ['/static/images/tcp-udp-packet.png']
 canonicalUrl: https://vinayakg.dev/hide-and-seek-with-internet-provider
 ---
 

@@ -4,6 +4,7 @@ tags: [tech, migration, productivity, git, hacks]
 date: 2020-07-22
 draft: false
 summary:
+images: ['/static/images/github-teams.png']
 canonicalUrl: https://vinayakg.dev/migrate-to-github-and-lfs
 ---
 

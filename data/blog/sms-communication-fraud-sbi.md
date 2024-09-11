@@ -4,7 +4,7 @@ tags: [netbanking-clone,cybersecurity,financial-fraud, cybercrime, sbi-clone]
 date: 2023-12-10
 draft: false
 summary: Dissecting SBI netbanking clone link received via SMS
-images:['static/images/financial-fraud-with-sbi-clone1701523234915.jpeg']
+images: ['static/images/financial-fraud-with-sbi-clone1701523234915.jpeg']
 canonicalUrl: https://vinayakg.dev/dissecting-sbi-bank-clone-financial-fraud
 ---
 

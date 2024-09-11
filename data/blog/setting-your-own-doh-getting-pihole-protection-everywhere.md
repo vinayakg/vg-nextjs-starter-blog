@@ -4,7 +4,8 @@ tags: [dns, doh, security, privacy, nginx, ssl, stream]
 date: 2023-04-21
 draft: false
 summary:
-canonicalUrl: /setting-your-own-doh-getting-pihole-protection-everywhere
+images: ['/static/images/HTTPS-DNS.png']
+canonicalUrl: https://vinayakg.dev/setting-your-own-doh-getting-pihole-protection-everywhere
 ---
 
 ## Problem Statement

@@ -3,8 +3,8 @@ title: Branching Patterns for a growing team
 tags: [git, scaling, code-review, quality, engineering]
 date: 2020-05-18
 draft: false
-images:['/static/images/image-20200518032241426.png']
 summary:
+images: ['/static/images/image-20200518032241426.png']
 canonicalUrl: https://vinayakg.dev/branching-patterns-for-growing-teams
 ---
 

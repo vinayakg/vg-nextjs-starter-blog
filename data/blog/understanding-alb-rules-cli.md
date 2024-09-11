@@ -4,6 +4,7 @@ tags: [aws, automation, cli, engineering]
 date: 2020-05-24
 draft: false
 summary:
+images: ['/static/images/alb-html-maintenance.png']
 canonicalUrl: https://vinayakg.dev/understanding-alb-rules-cli
 ---
 

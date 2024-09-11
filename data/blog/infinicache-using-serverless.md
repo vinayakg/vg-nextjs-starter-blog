@@ -4,6 +4,7 @@ tags: [aws, lambda, serverless, engineering, design, system, architecture, paper
 date: 2020-06-27
 draft: false
 summary:
+images: ['/static/images/InfiniCache_Architecture.png']
 canonicalUrl: https://vinayakg.dev/infinicache-using-serverless
 ---
 

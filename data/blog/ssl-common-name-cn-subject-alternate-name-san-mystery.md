@@ -4,7 +4,7 @@ tags: [ssl, san,cn,common-name, subject-alternate-name]
 date: 2024-02-13
 draft: false
 summary: SSL Common Names (CN) and Subject Alternative Names (SAN) and its mystery and how browsers use them
-images:['/static/images/ssl-cn-san-1706214791424.jpeg']
+images: ['/static/images/ssl-cn-san-1706214791424.jpeg']
 canonicalUrl: https://vinayakg.dev/ssl-common-name-cn-subject-alternate-name-san-mystery
 ---
 

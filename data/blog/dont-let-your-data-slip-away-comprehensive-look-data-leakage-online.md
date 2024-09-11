@@ -4,6 +4,7 @@ tags: [dns, leak, internet, doh, dot, dnssec, security, cloudnative]
 date: 2023-04-10
 draft: false
 summary: Protect yourself from online data leaks by taking precautions such as using strong passwords, avoiding suspicious emails and links, using VPNs, and regularly checking privacy settings on social media platforms
+images: ['/static/images/dns-settings-provider.png']
 canonicalUrl: https://vinayakg.dev/dont-let-your-data-slip-away-comprehensive-look-data-leakage-online
 ---
 

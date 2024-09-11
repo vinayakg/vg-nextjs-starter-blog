@@ -4,6 +4,7 @@ tags: [mac, m1, productivity, setup, tools, tech, startup]
 date: 2021-09-18
 draft: false
 summary:
+images: ['/static/images/eda9674d3a6d8455267c0891c4b2655e.png']
 canonicalUrl: https://vinayakg.dev/setup-and-productivity-with-mac-m1
 ---
 

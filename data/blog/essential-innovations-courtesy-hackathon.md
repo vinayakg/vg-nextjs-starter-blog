@@ -4,6 +4,7 @@ tags: [medicine, essential, embedded, hacks]
 date: 2020-02-25
 draft: false
 summary:
+images: ['/static/images/circuit_built.png']
 canonicalUrl: https://vinayakg.dev/essential-innovations-courtesy-hackathon
 ---
 

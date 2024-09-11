@@ -4,6 +4,7 @@ tags: [tech, setup, productivity, brew, hacks]
 date: 2020-08-02
 draft: false
 summary:
+images: ['/static/images/Keyboard-Settings.png']
 canonicalUrl: https://vinayakg.dev/how-to-setup-your-mac
 ---
 

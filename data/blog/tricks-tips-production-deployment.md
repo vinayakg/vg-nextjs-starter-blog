@@ -4,6 +4,7 @@ tags: [tech, maintenance, haproxy, alb, hacks]
 date: 2020-12-20
 draft: false
 summary:
+images: ['/static/images/image-20200524143629598.png']
 canonicalUrl: https://vinayakg.dev/tricks-tips-production-deployment
 ---
 
