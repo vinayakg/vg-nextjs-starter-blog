@@ -8,3 +8,7 @@ const handler = NewsletterAPI({
 })
 
 export { handler as GET, handler as POST }
+
+export const config = {
+  runtime: 'nodejs'
+}
