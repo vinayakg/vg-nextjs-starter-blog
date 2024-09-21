@@ -141,6 +141,10 @@ module.exports = () => {
       ]
     },
     webpack: (config, options) => {
+      config.resolve.fallback = {
+        ...config.resolve.fallback,
+        querystring: require.resolve('querystring-es3'),
+      }
       config.module.rules.push({
         test: /\.svg$/,
         use: ['@svgr/webpack'],
