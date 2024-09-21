@@ -5,7 +5,7 @@ import PageTitle from '@/components/PageTitle'
 import { components } from '@/components/MDXComponents'
 import { MDXLayoutRenderer } from 'pliny/mdx-components'
 import { sortPosts, coreContent, allCoreContent } from 'pliny/utils/contentlayer'
-import { allBlogs, allAuthors } from 'contentlayer/generated'
+
 import type { Authors, Blog } from 'contentlayer/generated'
 import PostSimple from '@/layouts/PostSimple'
 import PostLayout from '@/layouts/PostLayout'
@@ -13,6 +13,13 @@ import PostBanner from '@/layouts/PostBanner'
 import { Metadata } from 'next'
 import siteMetadata from '@/data/siteMetadata'
 import { notFound } from 'next/navigation'
+
+export const dynamic = 'auto'
+import { allBlogs, allAuthors } from 'contentlayer/generated'
+
+export const generateStaticParams = async () => {
+  return Array.from(allBlogs).map((p) => ({ slug: p.slug.split('/') }))
+}
 
 const defaultLayout = 'PostLayout'
 const layouts = {
@@ -72,12 +79,6 @@ export async function generateMetadata({
       images: imageList,
     },
   }
-}
-
-export const generateStaticParams = async () => {
-  const paths = allBlogs.map((p) => ({ slug: p.slug.split('/') }))
-
-  return paths
 }
 
 export default async function Page({ params }: { params: { slug: string[] } }) {

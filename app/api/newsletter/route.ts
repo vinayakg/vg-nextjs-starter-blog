@@ -1,3 +1,4 @@
+export const dynamic = 'force-dynamic'
 import { NewsletterAPI } from 'pliny/newsletter'
 import siteMetadata from '@/data/siteMetadata'
 

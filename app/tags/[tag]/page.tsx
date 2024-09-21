@@ -1,3 +1,4 @@
+export const dynamic = 'auto'
 import { slug } from 'github-slugger'
 import { allCoreContent, sortPosts } from 'pliny/utils/contentlayer'
 import siteMetadata from '@/data/siteMetadata'
@@ -22,12 +23,8 @@ export async function generateMetadata({ params }: { params: { tag: string } }):
 }
 
 export const generateStaticParams = async () => {
-  const tagCounts = tagData as Record<string, number>
-  const tagKeys = Object.keys(tagCounts)
-  const paths = tagKeys.map((tag) => ({
-    tag: encodeURI(tag),
-  }))
-  return paths
+  const tags = new Set(allBlogs.flatMap((post) => post.tags))
+  return Array.from(tags).map((tag) => ({ tag }))
 }
 
 export default function TagPage({ params }: { params: { tag: string } }) {
